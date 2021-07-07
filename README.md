@@ -9,17 +9,10 @@ This application provides all the details of the requested movie such as overvie
 
 The details of the movies(title, genre, runtime, rating, poster, etc) are fetched using an API by TMDB, https://www.themoviedb.org/documentation/api, and using the IMDB id of the movie in the API, I did web scraping to get the reviews given by the user in the IMDB site using `beautifulsoup4` and performed sentiment analysis on those reviews.
 
-## Link to the application
-
-Check out the live demo: https://the-movie-cinema.herokuapp.com/
 
 ## Note
 
 Don't worry if the movie that you are looking for is not auto-suggested. Just type the movie name and click on "enter". You will be good to go even though if you made some typo errors.
-
-## 'Invalid Request' Error
-
-If you're getting invalid request error in your application, kindly go through this issue - https://github.com/kishan0725/The-Movie-Cinema/issues/2
 
 ## How to get the API key?
 
